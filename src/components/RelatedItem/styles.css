@@ -1,0 +1,15 @@
+.related-item {
+  margin: 1rem;
+  width: auto;
+  padding: 0.4rem;
+  background: radial-gradient(rgb(217, 218, 228), rgb(141, 159, 236));
+  border-radius: 12px;
+  filter: drop-shadow(5px 7px 4px rgb(201, 198, 198));
+}
+
+.related-item:hover {
+  transition: all 250ms ease-in;
+  filter: saturate(1.5);
+  color: red;
+  cursor: pointer;
+}

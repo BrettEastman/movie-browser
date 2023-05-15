@@ -1,0 +1,15 @@
+.movies-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  text-shadow: 0.4px 0.4px rgb(8, 8, 17);
+  font-size: 1.3rem;
+}
+
+/* .movies-menu__buttons {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  transform: translateY(50%);
+} */

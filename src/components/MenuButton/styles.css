@@ -1,0 +1,25 @@
+.menu-button {
+  display: flex;
+  justify-content: center;
+  color: inherit;
+  margin: 1rem;
+  padding: 1rem;
+  background: radial-gradient(rgb(217, 218, 228), rgb(141, 159, 236));
+  border-radius: 48px;
+  transition: color 150ms ease-in;
+  user-select: none;
+  filter: drop-shadow(5px 7px 12px rgb(201, 198, 198));
+}
+
+.menu-button span {
+  margin: 0;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+  color: #d85311;
+}
+
+.menu-button.selected {
+  color: blue;
+}
